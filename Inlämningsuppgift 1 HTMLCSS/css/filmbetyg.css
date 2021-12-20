@@ -1,0 +1,41 @@
+body{
+    background: url("https://i.imgur.com/Zw2JZgM.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 1.5%;
+}
+
+.container, .caption, .blockquote{
+    color: white;
+    text-align: center;
+    text-shadow:
+    -1px 1px 0 darkslategray, 1px 1px 0 darkslategray,
+    1px -1px 0 darkslategray, -1px -1px 0 darkslategray;
+}
+
+.blockquote{
+    margin-top: 20%;
+}
+
+.blockquote-footer{
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    margin: 0;
+}
+
+img{
+    margin-top: 15%;
+}
+
+.modal-header{
+    border-radius: 5%;
+    background-color: transparent;
+}
+
+.text-danger{
+    text-shadow:none;
+}
